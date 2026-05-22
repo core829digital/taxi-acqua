@@ -49,9 +49,10 @@ export default function Header() {
             <Image
               src="/logo-taxi-border.png"
               alt="TaxiAcqua"
-              width={44}
-              height={44}
+              width={56}
+              height={56}
               className="object-contain"
+              priority
             />
           </Link>
 
