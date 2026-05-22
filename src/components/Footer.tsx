@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
+            <div className="mb-4">
               <Image
                 src="/logo-taxi-border.png"
                 alt="TaxiAcqua"
@@ -16,10 +16,6 @@ export default function Footer() {
                 height={44}
                 className="object-contain"
               />
-              <div>
-                <span className="text-xl font-bold">Taxi</span>
-                <span className="text-xl font-bold text-blue-400">Acqua</span>
-              </div>
             </div>
             <p className="text-gray-400 text-sm">
               Consegna acqua e bibite a domicilio, veloce e affidabile. Il tuo taxi per l&apos;acqua fresca.
