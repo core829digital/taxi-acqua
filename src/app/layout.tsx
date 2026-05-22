@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "TaxiAcqua - Consegna Acqua e Bibite a Domicilio",
   description: "Ordina acqua e bibite online, consegna veloce a domicilio. Il tuo taxi per l'acqua fresca.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

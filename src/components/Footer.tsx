@@ -1,4 +1,5 @@
-import { Droplets, Phone, Mail, MapPin } from 'lucide-react'
+import Image from 'next/image'
+import { Phone, Mail, MapPin } from 'lucide-react'
 import Link from 'next/link'
 
 export default function Footer() {
@@ -8,9 +9,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-xl flex items-center justify-center">
-                <Droplets className="w-6 h-6 text-white" />
-              </div>
+              <Image
+                src="/logo-taxi-border.png"
+                alt="TaxiAcqua"
+                width={40}
+                height={40}
+                className="w-10 h-10"
+              />
               <div>
                 <span className="text-xl font-bold">Taxi</span>
                 <span className="text-xl font-bold text-blue-400">Acqua</span>
