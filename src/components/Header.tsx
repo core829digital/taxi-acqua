@@ -47,7 +47,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center">
             <Image
-              src="/logo-taxi-border.png"
+              src="/favicon.png"
               alt="TaxiAcqua"
               width={56}
               height={56}

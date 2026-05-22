@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="mb-4">
               <Image
-                src="/logo-taxi-border.png"
+                src="/favicon.png"
                 alt="TaxiAcqua"
                 width={56}
                 height={56}

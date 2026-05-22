@@ -3,8 +3,9 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useAuthStore } from '@/stores/authStore'
-import { Droplets, Mail, Lock, ArrowRight } from 'lucide-react'
+import { Mail, Lock, ArrowRight } from 'lucide-react'
 
 export default function LoginPage() {
   const router = useRouter()
@@ -38,8 +39,8 @@ export default function LoginPage() {
     <div className="min-h-[calc(100vh-8rem)] flex items-center justify-center bg-gradient-to-br from-blue-50 to-cyan-50 px-4 py-12">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <div className="w-16 h-16 mx-auto bg-gradient-to-br from-blue-500 to-cyan-400 rounded-2xl flex items-center justify-center mb-4">
-            <Droplets className="w-8 h-8 text-white" />
+          <div className="mx-auto mb-4 w-16 h-16 flex items-center justify-center">
+            <Image src="/favicon.png" alt="TaxiAcqua" width={64} height={64} className="object-contain" />
           </div>
           <h1 className="text-2xl font-bold text-gray-900">Accedi a TaxiAcqua</h1>
           <p className="text-gray-500 mt-2">Entra nel tuo account per ordinare</p>
