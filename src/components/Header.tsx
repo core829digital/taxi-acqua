@@ -49,9 +49,9 @@ export default function Header() {
             <Image
               src="/logo-taxi-border.png"
               alt="TaxiAcqua"
-              width={40}
-              height={40}
-              className="w-10 h-10"
+              width={44}
+              height={44}
+              className="object-contain"
             />
             <div className="hidden sm:block">
               <span className="text-xl font-bold text-gray-900">Taxi</span>

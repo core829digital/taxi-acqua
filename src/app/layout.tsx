@@ -18,7 +18,11 @@ export const metadata: Metadata = {
   title: "TaxiAcqua - Consegna Acqua e Bibite a Domicilio",
   description: "Ordina acqua e bibite online, consegna veloce a domicilio. Il tuo taxi per l'acqua fresca.",
   icons: {
-    icon: "/favicon.png",
+    icon: [{ url: "/favicon.png", sizes: "32x32", type: "image/png" }],
+    apple: [{ url: "/favicon.png", sizes: "180x180" }],
+    other: [
+      { rel: "icon", url: "/favicon.png", sizes: "16x16", type: "image/png" },
+    ],
   },
 };
 
